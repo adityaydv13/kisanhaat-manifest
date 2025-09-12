@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: adityaydv10/kisanhaat-frontend:latest
+        image: adityaydv10/kisanhaat-frontend:1.0
+        imagePullPolicy: IfNotPresent    
         ports:
         - containerPort: 80
         env:
